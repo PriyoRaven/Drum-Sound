@@ -1,6 +1,13 @@
 body {
     text-align: center;
-    background-color: #0c1735;
+    background: conic-gradient(at 50% 10%, blue, white, rgb(255, 37, 37));
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow-y: hidden;
 }
   
 #title {
@@ -12,9 +19,10 @@ body {
 }
   
 footer {
-    color: #DBEDF3;
+    color: #313131;
     font-family: sans-serif;
     font-weight: 600;
+    margin-bottom: 100%;
 }
   
 .a{
@@ -66,7 +74,7 @@ footer {
   
 .drum {
     outline: none;
-    border: 15px solid #404B69;
+    border: 15px solid #bed0ff;
     font-size: 5rem;
     font-family: 'Arvo', cursive;
     line-height: 1.8;
@@ -80,5 +88,6 @@ footer {
     text-align: center;
     margin: 10px;
     background-color: white;
+    box-shadow: 10px 10px 10px rgb(45, 45, 45);
 }
   
